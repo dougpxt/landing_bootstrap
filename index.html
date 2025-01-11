@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="w-100 bg-primary py-3 px-5 d-flex align-items-center justify-content-between bg-secondary">
+    <header class="d-flex w-100 bg-primary py-3 px-5 align-items-center justify-content-between bg-secondary">
         <h1 class="text-white">First Bootstrap</h1>
         <nav class="d-flex gap-4">
             <a class="text-white fs-3" href="#portfolio">Portfolio</a>
@@ -22,7 +22,7 @@
         </nav>
     </header>
     
-    <main class="w-100 d-flex flex-column justify-content-center align-items-center gap-3">
+    <main class="bg-dark-subtle w-100 py-5 d-flex flex-column justify-content-center align-items-center gap-3">
         <img src="./src/assets/images/icons8-user.svg" alt="user-icon">
         <h2>CURRICULUM VITAE</h2>
         <div class="divider w-100 d-flex align-items-center justify-content-center gap-4">
@@ -33,6 +33,37 @@
         <p>web-designer - network manager</p>
         <p></p>
     </main>
+
+    <section class="w-100 d-flex flex-column align-items-center justify-content-center gap-4">
+        <h3>Portfolio</h3>
+        <div class="divider w-100 d-flex align-items-center justify-content-center gap-4">
+            <div class="divider-line w-25 bg-black"></div>
+            <img width="80" height="80" src="./src/assets/images/icons8-star.svg" alt="star-icon">
+            <div class="divider-line w-25 bg-black"></div>
+        </div>
+        <div class="card-container row row-cols-auto">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
